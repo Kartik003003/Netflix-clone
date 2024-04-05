@@ -1,0 +1,112 @@
+.container1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: contrast(100%) brightness(80%) sepia(10%) saturate(100%) drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    color: white;
+    /* padding-left: ; */
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.container h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.container h5 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.container input[type="text"],
+.container input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container input[type="text"]{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    border: 2px solid white;
+}
+.container form{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.6rem;
+}
+
+.container input[type="submit"] {
+    background-color: #a31118;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #2f0000;
+}
+
+/* nav */
+
+img {
+    height: auto;
+    width: 20%;
+}
+
+.navbar {
+    height: fit-content;
+}
+
+.nav-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    margin: 15px;
+}
+
+.navbtn {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+    padding-left: 0.6rem;
+}
+
+.opt {
+    border: none;
+    border-radius: 10px;
+}
+
+li {
+    position: relative;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 18px
+}
+
+.signin {
+    font-size: 0.2rem;
+    padding: 0.5rem;
+}
